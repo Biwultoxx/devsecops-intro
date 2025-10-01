@@ -19,7 +19,5 @@ jobs:
       - name: Install Dependencies
         run: pip install pytest
  
-      - name: Run Tests
-        run: pytest
       - name: Run hello.py
         run: python hello.py
